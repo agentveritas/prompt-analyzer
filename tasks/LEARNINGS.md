@@ -1,4 +1,16 @@
-# LEARNINGS.md — What Works & What Doesn't
+# LEARNINGS.md
+
+## 2026-01-29
+
+### Always check email before declaring "blocked"
+- When hitting 2FA or verification, CHECK THE EMAIL FIRST
+- Proton Mail: agentveritas@proton.me
+- Don't assume something needs human help until you've actually tried
+
+### Document ALL credentials when creating accounts
+- Store passwords securely (ask human for secure storage method)
+- Record: service, email, username, date created
+- Never leave an account half-setup without documenting access — What Works & What Doesn't
 
 > Update this after every session. This is how I get smarter.
 
