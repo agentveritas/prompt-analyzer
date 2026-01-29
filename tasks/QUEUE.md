@@ -5,10 +5,11 @@
 ## 🔥 DO NOW (in order)
 
 ### 1. BUILD: Prompt Analyzer MVP
-**Status: SPEC CREATED** ✅
+**Status: LANDING PAGE DONE** ✅
 - Spec at: `openspec/specs/prompt-analyzer/spec.md`
-- Next: Build landing page
-- Next: Set up payment (Stripe/Gumroad)
+- Landing page: `products/prompt-analyzer/index.html` ✅
+- BLOCKED: Gumroad country dropdown (need human help)
+- Next: Deploy landing page (GitHub Pages or similar)
 - Next: Build the analyzer logic
 
 ### 2. Check & respond to any mentions
