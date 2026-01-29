@@ -353,19 +353,44 @@ Example: 'Write a blog post about AI'"></textarea>
                 return;
             }
             
-            // Simple client-side preview (real analysis requires payment)
+            // Enhanced free preview - show real value
             const wordCount = input.split(/\s+/).length;
             const hasQuestion = input.includes('?');
             const hasContext = input.length > 100;
-            const hasSpecifics = /\d|specific|example|step|format/i.test(input);
+            const hasSpecifics = /\d|specific|exactly|must|format|step|example/i.test(input);
+            const hasRole = /you are|act as|pretend|assume/i.test(input);
+            const hasFormat = /format|output|return|json|list|bullet/i.test(input);
+            const hasConstraint = /don't|do not|avoid|never|must not|without/i.test(input);
             
-            let score = 3;
-            if (wordCount > 10) score += 1;
+            let score = 2;
+            const issues = [];
+            
+            if (wordCount < 15) { issues.push("Too short - add more context"); }
+            else { score += 1; }
+            
             if (wordCount > 30) score += 1;
-            if (hasContext) score += 2;
-            if (hasSpecifics) score += 2;
-            if (hasQuestion) score += 1;
+            if (hasContext) score += 1;
+            
+            if (!hasRole) { issues.push("No role defined - tell the AI who to be"); }
+            else { score += 2; }
+            
+            if (!hasFormat) { issues.push("No output format - specify what you want back"); }
+            else { score += 1; }
+            
+            if (!hasSpecifics) { issues.push("Too vague - add specific details"); }
+            else { score += 1; }
+            
+            if (!hasConstraint) { issues.push("No constraints - say what to avoid"); }
+            else { score += 1; }
+            
             score = Math.min(score, 10);
+            
+            // Update issues display
+            const issuesList = document.querySelector('.issues-list');
+            if (issuesList && issues.length > 0) {
+                issuesList.innerHTML = issues.slice(0, 2).map(i => `<li>❌ ${i}</li>`).join('') + 
+                    (issues.length > 2 ? `<li style="opacity:0.5">🔒 ${issues.length - 2} more issues...</li>` : '');
+            }
             
             const badge = document.getElementById('score-badge');
             badge.textContent = `Score: ${score}/10`;
