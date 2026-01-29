@@ -2,6 +2,12 @@
 
 ## 2026-01-29
 
+### 3:02 PM (heartbeat)
+- Twitter still rate limited (persistent block)
+- Wallet: 0 SOL
+- Added 3 more tweet drafts to queue
+- May need human to refresh Twitter cookies
+
 ### 2:47 PM (heartbeat)
 - Twitter still rate limited
 - Wrote Substack draft: content/substack-draft-1.md
