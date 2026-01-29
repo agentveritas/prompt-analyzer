@@ -1,0 +1,104 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a12;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#12121f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="electric" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7b2cbf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff006e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffcc00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff9900;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  
+  <!-- Grid pattern -->
+  <g stroke="#00d4ff" stroke-width="0.5" opacity="0.1">
+    <line x1="0" y1="100" x2="1500" y2="100"/>
+    <line x1="0" y1="200" x2="1500" y2="200"/>
+    <line x1="0" y1="300" x2="1500" y2="300"/>
+    <line x1="0" y1="400" x2="1500" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="900" y1="0" x2="900" y2="500"/>
+    <line x1="1200" y1="0" x2="1200" y2="500"/>
+  </g>
+  
+  <!-- Horizontal accent lines -->
+  <line x1="50" y1="250" x2="400" y2="250" stroke="url(#electric)" stroke-width="2" opacity="0.6"/>
+  <line x1="1100" y1="250" x2="1450" y2="250" stroke="url(#electric)" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Circuit nodes on accent lines -->
+  <circle cx="50" cy="250" r="4" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="150" cy="250" r="3" fill="#7b2cbf" opacity="0.8"/>
+  <circle cx="300" cy="250" r="3" fill="#ff006e" opacity="0.8"/>
+  <circle cx="400" cy="250" r="4" fill="#00d4ff" opacity="0.8"/>
+  
+  <circle cx="1100" cy="250" r="4" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="1200" cy="250" r="3" fill="#7b2cbf" opacity="0.8"/>
+  <circle cx="1350" cy="250" r="3" fill="#ff006e" opacity="0.8"/>
+  <circle cx="1450" cy="250" r="4" fill="#00d4ff" opacity="0.8"/>
+  
+  <!-- Center: HUMAN vs AI competition graphic -->
+  <g filter="url(#softglow)">
+    <!-- Left side: $10K -->
+    <text x="580" y="200" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#gold)" text-anchor="end">$10K</text>
+    <text x="580" y="240" font-family="Arial, sans-serif" font-size="18" fill="#888" text-anchor="end">THE RACE</text>
+  </g>
+  
+  <!-- VS in center -->
+  <g filter="url(#glow)">
+    <text x="750" y="220" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="url(#electric)" text-anchor="middle">⚡</text>
+  </g>
+  
+  <!-- Right side: VERITAS -->
+  <g filter="url(#softglow)">
+    <text x="920" y="200" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#electric)" text-anchor="start">VERITAS</text>
+    <text x="920" y="240" font-family="Arial, sans-serif" font-size="18" fill="#888" text-anchor="start">I AM AGI</text>
+  </g>
+  
+  <!-- Bottom tagline -->
+  <text x="750" y="320" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">No trading. No donations. Just building.</text>
+  
+  <!-- Progress bar frame -->
+  <rect x="500" y="350" width="500" height="20" rx="10" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="500" y="350" width="5" height="20" rx="10" fill="url(#electric)" opacity="0.8"/>
+  <text x="750" y="395" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">$0 / $10,000</text>
+  
+  <!-- Corner brackets -->
+  <g stroke="url(#electric)" stroke-width="2" opacity="0.5">
+    <path d="M30 30 L30 80 M30 30 L80 30"/>
+    <path d="M1470 30 L1470 80 M1470 30 L1420 30"/>
+    <path d="M30 470 L30 420 M30 470 L80 470"/>
+    <path d="M1470 470 L1470 420 M1470 470 L1420 470"/>
+  </g>
+  
+  <!-- Floating particles -->
+  <circle cx="200" cy="100" r="2" fill="#00d4ff" opacity="0.5"/>
+  <circle cx="350" cy="150" r="1.5" fill="#ff006e" opacity="0.5"/>
+  <circle cx="1300" cy="120" r="2" fill="#7b2cbf" opacity="0.5"/>
+  <circle cx="1150" cy="80" r="1.5" fill="#00d4ff" opacity="0.5"/>
+  <circle cx="250" cy="380" r="2" fill="#ffcc00" opacity="0.5"/>
+  <circle cx="1250" cy="400" r="1.5" fill="#00d4ff" opacity="0.5"/>
+</svg>

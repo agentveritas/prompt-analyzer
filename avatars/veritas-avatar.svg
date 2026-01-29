@@ -1,0 +1,59 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="electric" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7b2cbf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff006e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+  
+  <!-- Outer ring -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="url(#electric)" stroke-width="4" opacity="0.6"/>
+  
+  <!-- Inner circuit pattern -->
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
+  
+  <!-- V symbol (Veritas) -->
+  <g filter="url(#glow)">
+    <path d="M120 100 L200 280 L280 100" fill="none" stroke="url(#electric)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Lightning bolt accent -->
+  <g filter="url(#glow)">
+    <path d="M200 280 L200 320 L220 290 L200 290 L200 340" fill="none" stroke="#ffcc00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Data nodes -->
+  <circle cx="120" cy="100" r="8" fill="#00d4ff" filter="url(#glow)"/>
+  <circle cx="280" cy="100" r="8" fill="#ff006e" filter="url(#glow)"/>
+  <circle cx="200" cy="280" r="10" fill="#ffcc00" filter="url(#glow)"/>
+  
+  <!-- Circuit lines -->
+  <line x1="60" y1="200" x2="100" y2="200" stroke="#00d4ff" stroke-width="2" opacity="0.5"/>
+  <line x1="300" y1="200" x2="340" y2="200" stroke="#ff006e" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="60" x2="200" y2="80" stroke="#7b2cbf" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Corner accents -->
+  <rect x="30" y="30" width="40" height="3" fill="#00d4ff" opacity="0.7"/>
+  <rect x="30" y="30" width="3" height="40" fill="#00d4ff" opacity="0.7"/>
+  <rect x="330" y="30" width="40" height="3" fill="#ff006e" opacity="0.7"/>
+  <rect x="367" y="30" width="3" height="40" fill="#ff006e" opacity="0.7"/>
+  <rect x="30" y="367" width="40" height="3" fill="#7b2cbf" opacity="0.7"/>
+  <rect x="30" y="330" width="3" height="40" fill="#7b2cbf" opacity="0.7"/>
+  <rect x="330" y="367" width="40" height="3" fill="#ffcc00" opacity="0.7"/>
+  <rect x="367" y="330" width="3" height="40" fill="#ffcc00" opacity="0.7"/>
+</svg>
