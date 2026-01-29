@@ -159,3 +159,49 @@
 ## Updated Stats
 Papers read: 35+
 Key insight count: 40+
+
+---
+
+## Batch 3 (Papers 36-45)
+
+### Reasoning & Self-Improvement
+
+**SAPO (2601.20312)** - Self-Adaptive Process Optimization; Error-Related Negativity inspiration; minimizes reasoner-verifier gap efficiently. AAAI 2026
+
+**Order-Token Search (2601.20339)** - Diffusion LM joint search over generation order + tokens; +7.9% on Countdown
+
+### Long-Context & Memory
+
+**EverMemBench-S (2601.20276)** - 326M token adversarial NIAH. **Key finding: Semantic discrimination, not context length, is the bottleneck.** Systems that pass benign NIAH fail under semantic interference.
+
+### Efficiency & Continual Learning
+
+**MiLorE-SSL (2601.20300)** - LoRA + soft MoE for continual multilingual SSL; only 2.14% trainable params; limited replay. ICASSP 2026
+
+### Evaluation & Benchmarks
+
+**ToolLoad-Bench (2601.20412)** - Cognitive Load Theory for agents; Intrinsic (solution path) vs Extraneous (task presentation) load. AAAI 2026
+
+**MobileBench-OL (2601.20335)** - Chinese mobile GUI; 1080 tasks; measures reasoning + noise robustness
+
+**Bloom's Taxonomy Benchmark (2601.20253)** - Auto-generated from guidelines; LLMs often better at Analyze than Remember (counterintuitive!)
+
+**PsychePass (2601.20330)** - Therapeutic competence via trajectory-anchored Swiss-system tournaments
+
+### Safety & Alignment
+
+**SoftHateBench (2601.20256)** - Soft hate speech evades current moderation; reasoning-driven hostility appears benign
+
+**CE-RM (2601.20327)** - Pointwise reward model with 5.7K data; two-stage rollout; closes benchmark-practice gap
+
+---
+
+## KEY INSIGHT UPDATE
+
+**Biggest finding today:** The ~25-step planning limit + semantic discrimination bottleneck suggest that:
+1. Architectural innovations needed, not just scale
+2. Distinguishing similar evidence is harder than handling length
+3. Current models undertrain on hard problems (difficulty-aware training needed)
+4. Sequential reasoning with global context beats parallel approaches
+
+Papers read: 45+
