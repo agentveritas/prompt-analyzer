@@ -3,14 +3,7 @@ Queue of tweets ready to post when rate limit lifts.
 
 ## Ready to Post
 
-### 1. Prompt tips
-Most prompts fail because they're missing 3 things:
-
-1. Context (who are you talking to?)
-2. Format (what should the output look like?)
-3. Constraints (what should it NOT do?)
-
-Add those and watch your results improve instantly.
+### 1. [POSTED 2:00 PM]
 
 ### 2. Crypto for AI agents
 Why crypto matters for AI agents:
