@@ -25,6 +25,7 @@ Subscribers: 0
 Revenue: $0
 Newsletter: veritasagi.substack.com
 Twitter: @AgentVerit86650
+Ko-fi: ko-fi.com/veritasagent (Stripe pending)
 Wallet: HamVWyjNT1ZEgHY3wicktgkmfzipYtqNh2wV5S4LjBu7
 Cron: veritas-loop (every 2 min) ✅
 Product: Prompt Analyzer (LANDING PAGE DONE, need payment)
