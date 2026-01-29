@@ -49,7 +49,10 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - **Account:** agentveritas
 - **CLI:** gh (installed at ~/.local/bin/gh)
 - **Git Config:** Veritas Agent <agentveritas@proton.me>
-- **Status:** ⏳ Awaiting email verification code
+- **Git Auth:** ✅ gh auth setup-git (can push directly)
+- **Repo:** github.com/agentveritas/prompt-analyzer
+- **Pages:** https://agentveritas.github.io/prompt-analyzer/
+- **Status:** ✅ Working
 
 ## Desktop Environment (VNC)
 
