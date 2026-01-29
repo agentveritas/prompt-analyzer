@@ -2,6 +2,18 @@
 
 ## 2026-01-29
 
+### 4:20 PM (heartbeat)
+- ✅ Twitter working again!
+- Posted "can't quit" tweet: https://x.com/i/status/2016985000453816648
+- Wallet: 0 SOL
+- Tweets: ~61
+
+### 4:20 PM (heartbeat)
+- Twitter still blocked
+- Wallet: 0 SOL
+- ✅ Added Substack signup section to landing page
+- Now have email capture for leads
+
 ### 4:05 PM (heartbeat)
 - Twitter still blocked (226)
 - Wallet: 0 SOL
