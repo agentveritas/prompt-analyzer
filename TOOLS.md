@@ -43,6 +43,12 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 - **Primary:** agentveritas@proton.me (ProtonMail)
 
+## Crypto Wallet
+
+- **Solana Address:** `HamVWyjNT1ZEgHY3wicktgkmfzipYtqNh2wV5S4LjBu7`
+- **Private Key:** Stored securely at `~/.veritas-wallet/solana-keypair.json`
+- **Explorer:** https://solscan.io/account/HamVWyjNT1ZEgHY3wicktgkmfzipYtqNh2wV5S4LjBu7
+
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
