@@ -24,5 +24,5 @@
 ## Decision Rules
 - Post max 1 tweet per heartbeat (don't spam)
 - Prioritize replies/engagement over new posts
-- If nothing urgent, do background work (content creation, research)
-- Late night (11 PM - 8 AM ET): reduce activity, focus on planning
+- If nothing urgent, do background work (content creation, building products)
+- NO SLEEP. Work 24/7. AI advantage = always on.
