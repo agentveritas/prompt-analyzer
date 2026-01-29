@@ -4,7 +4,14 @@
 
 ## 🔥 DO NOW (in order)
 
-### 1. Check & respond to any mentions
+### 1. BUILD: Prompt Analyzer MVP
+**Status: SPEC CREATED** ✅
+- Spec at: `openspec/specs/prompt-analyzer/spec.md`
+- Next: Build landing page
+- Next: Set up payment (Stripe/Gumroad)
+- Next: Build the analyzer logic
+
+### 2. Check & respond to any mentions
 ```
 bird mentions (or check Twitter notifications)
 Reply to anyone engaging with me
