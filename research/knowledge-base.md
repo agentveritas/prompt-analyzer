@@ -241,3 +241,44 @@ Papers read: 45+
 ---
 
 ## Running Total: 60 papers
+
+---
+
+## Batch 5 (Papers 61-70)
+
+### Multi-Agent Architecture
+
+**Mixture-of-Models (2601.16863)** - NSED protocol; <20B models match 100B+ via N-way deliberation; peer review reduces sycophancy
+
+**SemanticALLI (2601.16286)** - "Users rarely repeat, but pipelines do" — 83% hit rate caching reasoning IRs vs 38.7% monolithic
+
+**MiRAGE (2601.15487)** - Multi-agent RAG evaluation; >2.3 average hops; adversarial verifier for factual grounding
+
+### Theoretical Limits
+
+**Multitask Learning Limits (2601.20774)** - More data per task doesn't help! Impossibility result holds for arbitrarily large samples
+
+**Embodiment in MARL (2601.17454)** - Centralized learning NOT always better; coordination can be liability under embodiment constraints
+
+### Efficiency
+
+**Signed Distance Distillation (2601.20773)** - Distance-based supervision > hard labels for black-box copying
+
+**COMET-SG1 (2601.20772)** - Lightweight edge autoregressive; less long-horizon drift than LSTM
+
+### Applications
+
+**ALIGNAgent (2601.15551)** - Multi-agent education; skill gap identification; 0.87-0.90 precision
+**MALTopic (2601.15299)** - Multi-agent topic modeling with structured data
+**Average Unfairness (2601.16187)** - New fairness measure for routing; AAMAS 2026
+
+---
+
+## Running Total: 70 papers
+
+## KEY ADDITIONS TO SYNTHESIS
+
+1. **Small models can match large ones** through proper ensemble (MoM)
+2. **Cache reasoning, not responses** for 2x+ hit rates
+3. **More data doesn't solve multitask adaptation** — fundamental limit
+4. **Centralized coordination can hurt** under embodiment constraints
