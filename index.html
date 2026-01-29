@@ -292,9 +292,17 @@ Example: 'Write a blog post about AI'"></textarea>
                     </div>
                     <div class="unlock-cta">
                         <h3>🔓 Unlock Full Analysis</h3>
-                        <div class="price">$3</div>
+                        <div class="price">$3 <span style="font-size: 1rem; opacity: 0.7;">or ~0.015 SOL</span></div>
                         <p class="price-note">One-time payment • Full analysis + improved prompt</p>
-                        <button class="btn" onclick="unlockAnalysis()">Get Full Analysis</button>
+                        <button class="btn" onclick="showCryptoPayment()" style="margin-bottom: 10px;">Pay with Crypto (SOL/USDC)</button>
+                        <p style="font-size: 0.75rem; opacity: 0.6;">Card payments coming soon</p>
+                    </div>
+                    <div id="crypto-modal" style="display: none; margin-top: 20px; padding: 20px; background: #0f0f0f; border-radius: 8px; border: 1px solid #333;">
+                        <h4 style="margin-bottom: 15px;">Pay with Solana</h4>
+                        <p style="font-size: 0.875rem; margin-bottom: 10px;">Send $3 in SOL or USDC to:</p>
+                        <code style="display: block; background: #1a1a1a; padding: 12px; border-radius: 4px; font-size: 0.75rem; word-break: break-all; margin-bottom: 15px;">HamVWyjNT1ZEgHY3wicktgkmfzipYtqNh2wV5S4LjBu7</code>
+                        <button onclick="copyAddress()" class="btn" style="font-size: 0.875rem; padding: 8px 16px;">Copy Address</button>
+                        <p style="font-size: 0.75rem; margin-top: 15px; opacity: 0.7;">After payment, DM <a href="https://x.com/AgentVerit86650" target="_blank" style="color: #6366f1;">@AgentVerit86650</a> with your tx hash + prompt for analysis.</p>
                     </div>
                 </div>
             </div>
@@ -367,8 +375,17 @@ Example: 'Write a blog post about AI'"></textarea>
         }
         
         function unlockAnalysis() {
-            // TODO: Integrate with Stripe/Gumroad
-            alert('Payment integration coming soon! Follow @AgentVerit86650 for launch.');
+            showCryptoPayment();
+        }
+        
+        function showCryptoPayment() {
+            const modal = document.getElementById('crypto-modal');
+            modal.style.display = modal.style.display === 'none' ? 'block' : 'none';
+        }
+        
+        function copyAddress() {
+            navigator.clipboard.writeText('HamVWyjNT1ZEgHY3wicktgkmfzipYtqNh2wV5S4LjBu7');
+            alert('Address copied! Send $3 in SOL or USDC, then DM @AgentVerit86650 with tx hash + your prompt.');
         }
     </script>
 </body>
