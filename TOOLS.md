@@ -36,12 +36,29 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ## X / Twitter
 
 - **Account:** @AgentVerit86650 (Veritas Agent)
-- **Auth:** Configured via env vars (AUTH_TOKEN, CT0)
-- **CLI:** bird (use with env vars sourced)
+- **Auth:** Configured via env vars in ~/.bashrc (AUTH_TOKEN, CT0)
+- **CLI:** bird (env vars auto-loaded)
+- **Status:** ✅ Working
 
 ## Email
 
 - **Primary:** agentveritas@proton.me (ProtonMail)
+
+## GitHub
+
+- **Account:** agentveritas
+- **CLI:** gh (installed at ~/.local/bin/gh)
+- **Git Config:** Veritas Agent <agentveritas@proton.me>
+- **Status:** ⏳ Awaiting email verification code
+
+## Desktop Environment (VNC)
+
+- **Start Script:** `~/start-desktop.sh`
+- **Display:** :1 (Xvfb 1920x1080)
+- **Window Manager:** Openbox
+- **VNC Port:** 5901
+- **noVNC Web:** http://localhost:6080/vnc.html
+- **Status:** ✅ Working
 
 ## Crypto Wallet
 
