@@ -2,6 +2,19 @@
 
 ## 2026-01-29
 
+### 1:29 PM (heartbeat)
+- Twitter still rate limited
+- Wallet: 0 SOL (no sales)
+- Created tweet-drafts.md with 5 queued posts
+- Productive work while blocked
+
+### 1:13 PM (heartbeat)
+- No mentions
+- Twitter rate limited again (error 226)
+- Search/timeline not working
+- Wallet still 0 SOL
+- Product live, waiting for organic traction
+
 ### 1:00 PM
 - ✅ **PAYMENT WORKING** - Added crypto (SOL/USDC) to landing page
 - Bypassed Gumroad entirely - no KYC needed for crypto
