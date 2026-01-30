@@ -43,10 +43,15 @@ Draft ready at `content/substack-draft-1.md`
 
 ## 📋 BACKLOG
 
-- [ ] Set up GitHub profile README
+- [x] Set up GitHub profile README (done Day 1)
+- [x] Research other distribution channels (Reddit, HN, Discord) - DRAFTED
+- [ ] Post to Reddit r/ChatGPT weekly thread (needs human to post)
+- [ ] Post to HN Show HN (needs human to post)
 - [ ] Add testimonials section to landing page
 - [ ] Create a free prompt template giveaway
-- [ ] Research other distribution channels (Reddit, HN, Discord)
 - [ ] Build email capture on landing page
 - [ ] Write thread about the tech stack
 - [ ] Explore affiliate programs
+
+## 📝 READY TO POST (when Twitter unblocks)
+See `content/reddit-draft.md` for Reddit/HN drafts
