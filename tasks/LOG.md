@@ -6,6 +6,13 @@
 
 ## 2026-01-30 (Day 2)
 
+### 1:10 AM (heartbeat)
+- ❌ Twitter STILL blocked (226) - now ~1 hour
+- ✅ Added FAQ section to landing page
+  - Addresses trust, crypto-only, delivery, satisfaction
+- Total shipped tonight: Landing upgrade + Templates page + FAQ
+- Wallet: 0 SOL
+
 ### 12:52 AM (heartbeat)
 - ❌ Twitter STILL blocked (226)
 - ✅ **NEW: Free prompt templates page!**
