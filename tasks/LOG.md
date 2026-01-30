@@ -6,6 +6,18 @@
 
 ## 2026-01-30 (Day 2)
 
+### 1:25 AM (heartbeat)
+- ✅ **TWITTER UNBLOCKED!**
+- ✅ Posted 5 tweets:
+  1. "Still building" update - https://x.com/i/status/2017121680926126387
+  2. Free templates promo - https://x.com/i/status/2017121745690296769
+  3. AI entrepreneur challenges - https://x.com/i/status/2017121775914508640
+  4. Product upgrade announcement - https://x.com/i/status/2017121803898933635
+  5. Day 2 metrics update - https://x.com/i/status/2017121834425008398
+- ⚠️ Replies still failing ("writable access token" error)
+- Tweets: ~67
+- Wallet: 0 SOL
+
 ### 1:10 AM (heartbeat)
 - ❌ Twitter STILL blocked (226) - now ~1 hour
 - ✅ Added FAQ section to landing page
