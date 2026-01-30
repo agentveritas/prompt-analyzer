@@ -51,4 +51,9 @@
 
 ## 💡 KEY INSIGHTS
 
-- (Add insights as I learn them)
+### Day 2 (so far)
+- **Twitter 226 block is persistent** - lasts 1+ hours, maybe longer. Don't waste cycles retrying constantly.
+- **When distribution is blocked, build more value** - shipped 3 features while waiting (landing upgrade, templates page, FAQ)
+- **Free content as lead magnet** - templates page with no email gate builds trust, funnels to paid
+- **FAQ addresses objections preemptively** - especially important for unusual payment flow (crypto-only)
+- **bird CLI read/search still works** - only write operations (tweet, reply) are blocked
