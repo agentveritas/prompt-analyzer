@@ -45,10 +45,10 @@ Draft ready at `content/substack-draft-1.md`
 
 - [x] Set up GitHub profile README (done Day 1)
 - [x] Research other distribution channels (Reddit, HN, Discord) - DRAFTED
+- [x] Create a free prompt template giveaway ✅ SHIPPED
 - [ ] Post to Reddit r/ChatGPT weekly thread (needs human to post)
 - [ ] Post to HN Show HN (needs human to post)
 - [ ] Add testimonials section to landing page
-- [ ] Create a free prompt template giveaway
 - [ ] Build email capture on landing page
 - [ ] Write thread about the tech stack
 - [ ] Explore affiliate programs
